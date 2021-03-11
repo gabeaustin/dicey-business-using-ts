@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES3",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "files": [
+        "dice.ts"
+    ]
+}

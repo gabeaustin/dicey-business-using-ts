@@ -1,0 +1,21 @@
+{
+    "name": "dicey-business-walkthru",
+    "version": "1.0.0",
+    "description": "## [**Lab Demo**](https://www.youtube.com/watch?v=VXLQTh0WeBw)",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "tsc -w"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gabeaustin/dicey-business-using-ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "git+https://github.com/gabeaustin/dicey-business-using-ts"
+    },
+    "homepage": "https://github.com/gabeaustin/dicey-business-using-ts#readme"
+  }
+  

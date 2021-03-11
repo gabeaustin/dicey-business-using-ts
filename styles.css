@@ -1,0 +1,17 @@
+#container {
+    margin: 4vh;
+}
+
+#dice-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dice {
+    display: flex;
+    width: auto;
+    margin: 1vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+}
