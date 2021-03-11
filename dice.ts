@@ -35,36 +35,36 @@ class Die {
     dieFace(this.value, this.die)
   }
 }
-let dieFace = (value, die) => {
-    let unicode = ''
+let dieFace = (value: number, die: any) => {
+    let unicode = ""
   if (value === 1) {
-    unicode = '&#9856';
+    unicode = "&#9856";
     die.innerHTML = unicode;
-  } else if(value===2) {
-      unicode = '&#9857'
+  } else if(value === 2) {
+      unicode = "&#9857"
       die.innerHTML = unicode
-  } else if (value===3){
-      unicode = '&#9858'
+  } else if (value === 3){
+      unicode = "&#9858"
       die.innerHTML = unicode
-  } else if (value===4){
-      unicode = '&#9859'
+  } else if (value === 4){
+      unicode = "&#9859"
       die.innerHTML = unicode
-  } else if(value===5) {
-    unicode = '&#9860'
+  } else if(value === 5) {
+    unicode = "&#9860"
     die.innerHTML = unicode
-  } else if (value===6){
-    unicode = '&#9861'
+  } else if (value === 6){
+    unicode = "&#9861"
     die.innerHTML = unicode
   }
 };
 
-rerollBtn?.addEventListener('click', () => {
+rerollBtn?.addEventListener("click", () => {
   diceArr.forEach((die) => {
     die.roll();
   });
 });
 
-sumBtn?.addEventListener('click', () => {
+sumBtn?.addEventListener("click", () => {
   let sum = 0;
 
   diceArr.forEach((die) => {
