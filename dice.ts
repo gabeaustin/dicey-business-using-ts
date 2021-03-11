@@ -1,8 +1,8 @@
-const makeDieBtn = document.getElementById("make-die-btn");
-const rerollBtn = document.getElementById("reroll-btn");
-const sumBtn = document.getElementById("sum-btn");
-const container = document.getElementById("container");
-const diceContain = document.getElementById("dice-container");
+const makeDieBtn = document.getElementById("make-die-btn") as HTMLButtonElement;
+const rerollBtn = document?.getElementById("reroll-btn") as HTMLButtonElement;
+const sumBtn = document.getElementById("sum-btn") as HTMLButtonElement;
+const container = document.getElementById("container") as HTMLDivElement;
+const diceContain = document.getElementById("dice-container") as HTMLDivElement;
 let diceArr: number[] = [];
 
 makeDieBtn?.addEventListener("click", () => {

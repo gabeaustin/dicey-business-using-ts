@@ -1,6 +1,6 @@
 "use strict";
 var makeDieBtn = document.getElementById("make-die-btn");
-var rerollBtn = document.getElementById("reroll-btn");
+var rerollBtn = document === null || document === void 0 ? void 0 : document.getElementById("reroll-btn");
 var sumBtn = document.getElementById("sum-btn");
 var container = document.getElementById("container");
 var diceContain = document.getElementById("dice-container");
