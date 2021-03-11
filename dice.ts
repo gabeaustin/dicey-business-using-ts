@@ -72,4 +72,6 @@ sumBtn?.addEventListener("click", () => {
   });
 
   alert(`The sum of the dice is ${sum}`);
+
+  
 });
